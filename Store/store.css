@@ -2,7 +2,7 @@
 body {
 font-size: 67.5%
 font-family: Tahoma, Geneva, sans-serif;
-background: #39150C url(img/paper_1332008.jpg) no-repeat fixed top center;
+background: #39150C url(img/PineappleWall.jpg) no-repeat fixed top center;
 padding: 0;
 margin: 0;
 -webbit-background-size: 100% 100%;
@@ -62,7 +62,7 @@ hr {
 header {
 	padding: 2.5em 0 0.5em;
 	margin: 0 0 2.0em;
-	background: #39150C url(img/bg_cheeses_lg_2600w.jpg) center 0px;
+	background: #39150C url(img/StockSnap.jpg) center 0px;
 }
 header h1 {
 	font-family: "Times New Roman", Times, serif;
@@ -154,5 +154,51 @@ section#sidebar {
 	padding: 1.7em 0.5em 2.0em 1.7em;
 	border-left: #2BA967 solid 5px;
 }
+/*Footer*/
+footer {
+	background-color: #40362f;
+	height: 25px;
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li:before {
+	content: "|";
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: #fff
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff
+	text-decoration: underline;
+}
 
-#
+button {
+	color: #C64322
+	background-color: #FFF;
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	padding: 0.2em 0.5em;
+	border: 1px solid #C64322
+	text-transform: uppercase;
+}
+button:hover {
+	background-color: #FBF3DB
+	border: 1px solid #745b2f;
+}
+
